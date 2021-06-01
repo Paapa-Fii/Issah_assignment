@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  background:linear-gradient(90deg, #b4b4bd 65%,#E8E8E8 35%);
+  font-family: candara;
+  box-sizing: border-box;
+
+    
+}
+
+
+.container{
+  display: flex;
+  height: 600px;
+  width: 900px;
+  border: 10px #a79fb4;
+  border-style: solid;
+  border-radius: 15px;
+  margin: auto; 
+  margin-top: 100px;
+ 
+
+}
+ 
+.inner-left{
+  width: 60%;
+  background: whitesmoke;
+  padding-right: 50px;
+  /* padding-left: 100px; */
+
+}
+
+.inner-right{
+  flex-grow: 1;
+  background: white;
+}
+    
+    
+    
+    
+   /*border: linear-gradient(90deg, #9932cc 70%,#800000 30%);
+    /* position: relative; */
+   /* top: 50%;
+    left: 50%;
+    margin: auto;
+    align-items: left;
+   
+
+  } 
+
+
+   
+
+    
+    
+
+/* Login form */
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* align-items: left; */
+
+  border-radius: 5px;
+  margin-left: 50px;
+
+}
+
+div.a{
+    /* text-align: justify; For Edge
+    -moz-text-align-last: center; /* For Firefox prior 58.0 */
+    /* text-align-last: center; */ 
+  margin: 0;
+  padding: 0;
+  
+  
+  
+}
+
+.form h2{
+  font-size: 3rem;
+  /* margin: 40px; */
+
+
+}
+
+.box{
+  padding: 12px;
+  /* width: 100px; */
+  margin: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  outline: none;
+}
+
+#sumbit{
+  padding: 12px 30px;
+  width: 40%;
+  margin: 40px;
+  margin-top: 40px;
+  background-color:cornflowerblue;
+  font-weight: bold;
+  border: 10px groove green;
+  border-style: groove;
+  border-radius: 10px;
+}
+
+#submit:hover{
+  cursor: pointer;
+  background-color:chocolate;
+}
+
+.form a{
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+  /* padding-right: 50px; */
+}
+
+.form a:hover{
+  color: red
+}
+
+/* Right side */
+.side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .side img{
+  width: 450px;
+  height: 450px; */
+
+
+
+.foot{
+  align-items: center;
+}
